@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(57, 57, 57);
+  }
+  .style{
+    justify-content: center;
+    align-items: center;
+    font-size: 250%;
+    color: rgb(219, 219, 219);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15%;
+  }
+  .counter{
+    padding: 1% 2% 1% 2%;
+    background-color: rgb(77, 77, 77);
+    display: inline-block;
+    border-radius: 25px;
+    margin-top: 2%;
+  }
+  .style button{
+    padding:1% 2% 1% 2%;
+    margin:2%;
+    border-radius: 25px;
+    border: none;
+    color: rgb(219, 219, 219);
+    font-size: 100%;
+    cursor:pointer;
+  }
+  .increment{
+    background-color: rgb(88, 145, 88);
+  }
+  .decrement{
+    background-color: rgb(145, 83, 83);
+  }
