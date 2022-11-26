@@ -1,10 +1,10 @@
 import React,{ useState } from "react"
 const counter = () => {
-    // Use useState change the state of variable named counter
+    // Use useState change the state of variable named counter - Task 3
 
-    // make an arrow funtion named handleClick1 which will increment the vaule of counter by 1
+    // make an arrow funtion named handleClick1 which will increment the vaule of counter by 1 - Task 4
     
-    // make an arrow funtion named handleClick2 which will decrement the vaule of counter by 1
+    // make an arrow funtion named handleClick2 which will decrement the vaule of counter by 1 - Task 5 
     
     return (
         <div className="style">

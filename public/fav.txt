@@ -1,0 +1,15 @@
+Task 1 : import Counter from "./components/counter"
+
+Task 2 : <Counter />
+
+Task 3 :  const [counter, setCounter] = useState(0)
+
+Task 4 : const handleClick1 = () => {
+	        // Counter state is incremented
+	        setCounter(counter + 1)
+        }
+
+Task 5 : const handleClick2 = () => {
+            // Counter state is decremented
+	        setCounter(counter - 1)
+        }
