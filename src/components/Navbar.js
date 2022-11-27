@@ -5,8 +5,8 @@ import ContentPasteIcon from "@mui/icons-material/ContentPaste";
 import { useNavigate, Link } from "react-router-dom";
 
 const Navbar = () => {
-  const address = useAddress();
-  const navigate = useNavigate();
+  // const address = useAddress();
+  // const navigate = useNavigate();
 
   return (
     <Box>

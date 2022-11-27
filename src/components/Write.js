@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { Box, Container, Typography, Snackbar, Alert } from "@mui/material";
-import { Web3Button } from "@thirdweb-dev/react";
 import Blog from "../abi/Blog.json";
 
 const Write = () => {
-  const [title, setTitle] = useState("");
-  const [content, setContent] = useState("");
-  const [open, setOpen] = useState(false);
+  // const [title, setTitle] = useState("");
+  // const [content, setContent] = useState("");
+  // const [open, setOpen] = useState(false);
 
   return (
     <Box>
@@ -62,28 +61,7 @@ const Write = () => {
           onChange={(e) => setContent(e.target.value)}
         />
         <Container>
-          <Box sx={{ mt: 4, mb: 4 }}>
-            <Web3Button
-              accentColor="#9045fe"
-              contractAbi={Blog["abi"]}
-              contractAddress="0x5FbDB2315678afecb367f032d93F642f64180aa3"
-              colorMode="dark"
-              action={async (contract) => {
-                await contract.call("createPost", title, content, {
-                  gasLimit: 1000000,
-                  value: 1000000000000,
-                });
-              }}
-              onSuccess={() => {
-                setOpen(true);
-                setTimeout(() => {
-                  setOpen(false);
-                }, 3000);
-              }}
-            >
-              Publish
-            </Web3Button>
-          </Box>
+          <Box sx={{ mt: 4, mb: 4 }}>//add Web3Button</Box>
         </Container>
       </Container>
       {open && (

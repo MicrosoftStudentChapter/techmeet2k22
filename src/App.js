@@ -17,11 +17,10 @@ export default function Home() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Navbar />
       <Box className="container">
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/write" element={<Write />} />
+          {/* <Route path="/" element={<HomePage />} /> */}
+          {/* <Route path="/write" element={<Write />} /> */}
         </Routes>
       </Box>
     </ThemeProvider>
